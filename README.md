@@ -1,6 +1,6 @@
 Text analytics to automatically review medical publications in PubMed
 
-The dataset clinical_train.csv comes from PubMed search and contains the following
+The dataset clinical_trial.csv comes from PubMed search and contains the following
 variables:
 
 title: title of the publication
