@@ -37,9 +37,13 @@ predicted papers not to be trials (SET B). Then a researcher can manually
 review SET A papers and perform the study-specific analysis.
 
 All papers retrieved from PubMed search
+
       /                \
+
      /                  \
+
 predict trial=1    predict trial=0
+
     SET A               SET B
 
 The cost of the model making a false negative prediction is a paper that should
@@ -51,4 +55,4 @@ included in SET A by mistake, adding extra work for a manual review but will
 not affect the quality of the analysis.
 
 Based on this analysis, a false negative is more costly than a false positive,
-and we recommend using a probability threshold of <0.5. 
+and we recommend using a probability threshold of <0.5.
