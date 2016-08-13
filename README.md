@@ -17,6 +17,8 @@ the English common words, and stem the words.
 We then limit the sparseness of 95% which keeps the words that appear in at
 least 5% of documents.
 
+
+
 Regression Tree Model to classify clinical trials
 
 We split the prepared data 70/30 into train and test datasets. Our baseline
