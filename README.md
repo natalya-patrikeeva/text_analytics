@@ -36,16 +36,6 @@ We can use a CART model to predict which papers are clinical trials (SET A) and
 predicted papers not to be trials (SET B). Then a researcher can manually
 review SET A papers and perform the study-specific analysis.
 
-All papers retrieved from PubMed search
-
-      /                \
-
-     /                  \
-
-predict trial=1    predict trial=0
-
-    SET A               SET B
-
 The cost of the model making a false negative prediction is a paper that should
 have been included in SET A but was missed by the model which will affect the
 quality of the analysis.
